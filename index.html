@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital - Restaurante Sabor & Arte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="https://restaurante-marlonista.netlify.app/img-marlonista/logo.jpg" alt="logo-marlonista" />
+            </div>
+            <h1 class="restaurant-name">Restaurante Marlonista</h1>
+        </div>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <ul class="category-list">
+                <li class="category-item active" data-category="entradas">
+                    <i class="fas fa-leaf category-icon"></i> Entradas
+                </li>
+                <li class="category-item" data-category="pratos-principais">
+                    <i class="fas fa-drumstick-bite category-icon"></i> Pratos Principais
+                </li>
+                <li class="category-item" data-category="massas">
+                    <i class="fas fa-pasta category-icon"></i> Massas
+                </li>
+                <li class="category-item" data-category="sobremesas">
+                    <i class="fas fa-ice-cream category-icon"></i> Sobremesas
+                </li>
+                <li class="category-item" data-category="bebidas">
+                    <i class="fas fa-glass-martini-alt category-icon"></i> Bebidas
+                </li>
+                <li class="category-item" data-category="vinhos">
+                    <i class="fas fa-wine-glass-alt category-icon"></i> Vinhos
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h2 class="category-title" id="categoryTitle">Entradas</h2>
+            <div class="products-table" id="productsTable">
+                <!-- Os produtos serão carregados dinamicamente via JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <div class="image-modal" id="imageModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="modalImage" src="" alt="">
+            <div class="image-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
