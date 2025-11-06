@@ -1,6 +1,6 @@
 
 const menuData = {
-  entradas: [
+  "frutos-mar": [
     {
       id: 1,
       name: "Lasanha de Siri",
@@ -26,7 +26,7 @@ const menuData = {
       image: "img-marlonista/peixe-frito.jpg",
     },
   ],
-  "pratos-principais": [
+  lagostas: [
     {
       id: 4,
       name: "Macarrão com Frutos do Mar",
@@ -52,7 +52,7 @@ const menuData = {
       image: "img-marlonista/polvo-molho.jpg",
     },
   ],
-  massas: [
+  camaroes: [
     {
       id: 7,
       name: "Peixe e Camarão com Arroz",
@@ -78,7 +78,7 @@ const menuData = {
       image: "img-marlonista/frutos-mar.jpg",
     },
   ],
-  sobremesas: [
+  peixes: [
     {
       id: 10,
       name: "Vieiras Peruanas",
@@ -104,7 +104,7 @@ const menuData = {
       image: "img-marlonista/camarao-arroz-refogado.jpg",
     },
   ],
-  bebidas: [
+  carnes: [
     {
       id: 13,
       name: "Suco Natural de Laranja",
@@ -131,7 +131,7 @@ const menuData = {
         "https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     },
   ],
-  vinhos: [
+  acompanhamentos: [
     {
       id: 16,
       name: "Vinho Tinto Reserva",
@@ -157,6 +157,40 @@ const menuData = {
       price: "R$ 62,90",
       image:
         "https://images.unsplash.com/photo-1568216651129-ead9c19e6d33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    },
+  ],
+  petiscos: [
+    {
+      id: 19,
+      name: "Batata Frita",
+      description: "",
+      price: "R$ 15,00",
+      image:
+        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    },
+    {
+      id: 20,
+      name: "Macaxeira Frita",
+      description: "",
+      price: "R$ 15,00",
+      image:
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    },
+    {
+      id: 21,
+      name: "Croquete",
+      description: "",
+      price: "R$ 3,50 UND",
+      image:
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    },
+    {
+      id: 22,
+      name: "Porções de camarões",
+      description: "",
+      price: "R$ 70,00",
+      image:
+        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
     },
   ],
 };
@@ -335,4 +369,4 @@ function loadCategory(category) {
 }
 
 // Carregar categoria inicial
-loadCategory("entradas");
+loadCategory("frutos-mar");
