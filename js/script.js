@@ -179,26 +179,30 @@ const menuData = {
     {
       id: 22,
       name: "Peixe Frito",
-      description:
-        "",
+      description: "",
       price: "R$ 60,00",
       image: "img-marlonista/img/peixe-frito.jpg",
     },
     {
-      id: 123,
+      id: 23,
       name: "Peixe Grelhado",
-      description:
-        "",
+      description: "",
       price: "R$ 60,00",
       image: "img-marlonista/peixe-grelhado.jpg",
     },
     {
-      id: 12,
-      name: "Camarão com Arroz Refogado",
-      description:
-        "Camarões frescos salteados com alho, cebola e ervas aromáticas, envolvidos em um arroz refogado com açafrão, pimentões e temperos da casa. ",
-      price: "R$ 18,90",
-      image: "img-marlonista/camarao-arroz-refogado.jpg",
+      id: 24,
+      name: "Filé de Peixe",
+      description: "",
+      price: "R$ 60,00",
+      image: "img-marlonista/img/file-peixe.jpg",
+    },
+    {
+      id: 25,
+      name: "Ensopado de Peixe",
+      description: "",
+      price: "R$ 60,00",
+      image: "img-marlonista/img/ensopado-peixe.jpg",
     },
   ],
   carnes: [
