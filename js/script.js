@@ -12,7 +12,7 @@ const menuData = {
       id: 2,
       name: "Polvo",
       description:
-        "Tentáculos de polvo grelhados com maestria, servidos sobre um cremoso molho verde à base de ervas frescas e azeite extravirgem. A textura macia e o sabor marcante do polvo se harmonizam com o frescor do molho, criando uma experiência gastronômica única.",
+        "",
       price: "R$ 40,00",
       image: "img-marlonista/img/polvo.jpg",
     },
