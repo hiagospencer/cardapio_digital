@@ -5,23 +5,23 @@ const menuData = {
       id: 1,
       name: "Carangueijo",
       description: "",
-      price: "R$ 40,00",
+      price: "R$ 5,00 UND",
       image: "img-marlonista/carangueijo.jpg",
     },
     {
       id: 2,
       name: "Polvo",
-      description:
-        "",
-      price: "R$ 40,00",
+      description: "",
+      price: `P - R$ 60,00 | G - R$ 90,00
+      `,
       image: "img-marlonista/img/polvo.jpg",
     },
     {
       id: 3,
       name: "Filé de Siri",
       description: "",
-      price: "R$ 40,00",
-      image: "img-marlonista/file-siri.jpg",
+      price: "R$ 50,00",
+      image: "img-marlonista/img/file-siri.jpg",
     },
     {
       id: 4,
