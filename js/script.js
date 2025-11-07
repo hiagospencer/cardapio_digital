@@ -106,13 +106,20 @@ const menuData = {
     },
     {
       id: 15,
-      name: "Camarões na Moranga",
+      name: "Camarões no Morango",
       description: "",
       price: "R$ 80,00",
       image: "img-marlonista/img/camarao-morango.jpg",
     },
     {
-      id: 15,
+      id: 42,
+      name: "Camarões na Moranga",
+      description: "",
+      price: "R$ 120,00",
+      image: "img-marlonista/img/camarao-gerimum.jpg",
+    },
+    {
+      id: 43,
       name: "Camarões no Maracujá",
       description: "",
       price: "R$ 70,00",
@@ -126,14 +133,14 @@ const menuData = {
       image: "img-marlonista/img/camarao-coco.jpg",
     },
     {
-      id: 16,
+      id: 40,
       name: "Camarões ao Alho e Óleo",
       description: "",
       price: "R$ 50,00",
       image: "img-marlonista/img/camarao-alho-oleo.jpg",
     },
     {
-      id: 16,
+      id: 41,
       name: "Lasanha de Camarões",
       description: "",
       price: "R$ 80,00",
@@ -320,24 +327,21 @@ const menuData = {
       name: "Batata Frita",
       description: "",
       price: "R$ 15,00",
-      image:
-        "img-marlonista/batata-frita.webp",
+      image: "img-marlonista/batata-frita.webp",
     },
     {
       id: 38,
       name: "Macaxeira Frita",
       description: "",
       price: "R$ 15,00",
-      image:
-        "img-marlonista/macaxeira.jpg",
+      image: "img-marlonista/macaxeira.jpg",
     },
     {
       id: 39,
       name: "Porções de camarões",
       description: "",
       price: "R$ 70,00",
-      image:
-        "img-marlonista/porcao-camarao.jpg",
+      image: "img-marlonista/porcao-camarao.jpg",
     },
   ],
 };
