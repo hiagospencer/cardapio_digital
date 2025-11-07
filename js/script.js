@@ -92,9 +92,9 @@ const menuData = {
   camaroes: [
     {
       id: 13,
-      name: "Risoto de Camarões",
+      name: "Crocretes de camarões",
       description: "",
-      price: "R$ 70,00",
+      price: "R$ 3,50 UND",
       image: "img-marlonista/img/risoto-camarao.jpg",
     },
     {
@@ -174,31 +174,38 @@ const menuData = {
       price: "R$ 60,00",
       image: "img-marlonista/img/Paella-camarao.jpg",
     },
+    {
+      id: 22,
+      name: "Parmegiana de Camarões",
+      description: "",
+      price: "R$ 30,00",
+      image: "img-marlonista/img/parmegiana-camarao.jpg",
+    },
   ],
   peixes: [
     {
-      id: 22,
+      id: 23,
       name: "Peixe Frito",
       description: "",
       price: "R$ 60,00",
       image: "img-marlonista/img/peixe-frito.jpg",
     },
     {
-      id: 23,
+      id: 24,
       name: "Peixe Grelhado",
       description: "",
       price: "R$ 60,00",
       image: "img-marlonista/peixe-grelhado.jpg",
     },
     {
-      id: 24,
+      id: 25,
       name: "Filé de Peixe",
       description: "",
       price: "R$ 60,00",
       image: "img-marlonista/img/file-peixe.jpg",
     },
     {
-      id: 25,
+      id: 26,
       name: "Ensopado de Peixe",
       description: "",
       price: "R$ 60,00",
@@ -207,91 +214,130 @@ const menuData = {
   ],
   carnes: [
     {
-      id: 13,
-      name: "Suco Natural de Laranja",
-      description: "Suco de laranja fresco espremido na hora.",
-      price: "R$ 12,90",
-      image:
-        "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 27,
+      name: "Galinha",
+      description: "",
+      price: "R$ 60,00",
+      image: "img-marlonista/img/galinha.jpg",
     },
     {
-      id: 14,
-      name: "Caipirinha de Limão",
-      description:
-        "Tradicional caipirinha brasileira com limão e cachaça premium.",
-      price: "R$ 18,90",
-      image:
-        "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 28,
+      name: "Pato",
+      description: "",
+      price: "R$ 60,00",
+      image: "img-marlonista/img/pato.jpg",
     },
     {
-      id: 15,
-      name: "Refrigerante Artesanal",
-      description: "Refrigerante artesanal sabor limão siciliano.",
-      price: "R$ 14,50",
-      image:
-        "https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 29,
+      name: "Favada",
+      description: "",
+      price: "R$ 60,00",
+      image: "img-marlonista/img/fava.jpg",
+    },
+    {
+      id: 29,
+      name: "Contra Filé Acebolado",
+      description: "",
+      price: "R$ 30,00",
+      image: "img-marlonista/img/contra-file.jpg",
+    },
+    {
+      id: 29,
+      name: "Filé com Fritas",
+      description: "",
+      price: "R$ 40,00",
+      image: "img-marlonista/img/file-fritas.jpg",
     },
   ],
   acompanhamentos: [
     {
-      id: 16,
-      name: "Vinho Tinto Reserva",
-      description:
-        "Vinho tinto reserva, safra 2018, harmoniza com carnes vermelhas.",
-      price: "R$ 89,90",
-      image:
-        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 30,
+      name: "Arroz Branco",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/Arroz-branco.webp",
     },
     {
-      id: 17,
-      name: "Vinho Branco Sauvignon Blanc",
-      description:
-        "Vinho branco seco, ideal para acompanhar peixes e frutos do mar.",
-      price: "R$ 75,50",
-      image:
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 31,
+      name: "Arroz Refogado",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/arroz-refogado.webp",
     },
     {
-      id: 18,
-      name: "Espumante Brut",
-      description: "Espumante brut nacional, ideal para celebrações.",
-      price: "R$ 62,90",
-      image:
-        "https://images.unsplash.com/photo-1568216651129-ead9c19e6d33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      id: 32,
+      name: "Arroz Carreteiro",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/Arroz-carreteiro.webp",
+    },
+    {
+      id: 33,
+      name: "Feijão Verde",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/feijao-verde.jpg",
+    },
+    {
+      id: 34,
+      name: "Feijão Corda",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/feijao-corda.jpg",
+    },
+    {
+      id: 34,
+      name: "Feijão Preto",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/feijao-preto.jpg",
+    },
+    {
+      id: 35,
+      name: "Feijão Tropeiro",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/feijao-tropeiro.jpg",
+    },
+    {
+      id: 36,
+      name: "Feijoada",
+      description: "",
+      price: "R$ 20,00",
+      image: "img-marlonista/feijoada.webp",
+    },
+    {
+      id: 36,
+      name: "Baião de Dois",
+      description: "",
+      price: "R$ 10,00",
+      image: "img-marlonista/baiao-dois.jpeg",
     },
   ],
   petiscos: [
     {
-      id: 19,
+      id: 37,
       name: "Batata Frita",
       description: "",
       price: "R$ 15,00",
       image:
-        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "img-marlonista/batata-frita.webp",
     },
     {
-      id: 20,
+      id: 38,
       name: "Macaxeira Frita",
       description: "",
       price: "R$ 15,00",
       image:
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "img-marlonista/macaxeira.jpg",
     },
     {
-      id: 21,
-      name: "Croquete",
-      description: "",
-      price: "R$ 3,50 UND",
-      image:
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-    },
-    {
-      id: 22,
+      id: 39,
       name: "Porções de camarões",
       description: "",
       price: "R$ 70,00",
       image:
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "img-marlonista/porcao-camarao.jpg",
     },
   ],
 };
