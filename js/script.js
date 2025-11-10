@@ -338,10 +338,68 @@ const menuData = {
     },
     {
       id: 39,
-      name: "Porções de camarões",
+      name: "Porção de camarões",
       description: "",
       price: "R$ 70,00",
       image: "img-marlonista/porcao-camarao.jpg",
+    },
+  ],
+  sucos: [
+    {
+      id: 44,
+      name: "Coco",
+      description: "",
+      price: "Jarra P: R$ 15,00 - Jarra G: R$ 25,00",
+      image: "img-marlonista/img/suco-coco.jpg",
+    },
+    {
+      id: 45,
+      name: "Manjericão com Limão",
+      description: "",
+      price: "Jarra P: R$ 15,00 - Jarra G: R$ 25,00",
+      image: "img-marlonista/img/suco-manjericao-limao.jpg",
+    },
+    {
+      id: 46,
+      name: "Tamarindo",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-tamarindo.jpg",
+    },
+    {
+      id: 47,
+      name: "Abacaxi com Hortelã",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-abacaxi-hortela.jpg",
+    },
+    {
+      id: 48,
+      name: "Acerola",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-acerola.webp",
+    },
+    {
+      id: 49,
+      name: "Caju",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-caju.jpg",
+    },
+    {
+      id: 50,
+      name: "Manga",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-manga.jpg",
+    },
+    {
+      id: 51,
+      name: "Uva",
+      description: "",
+      price: "Jarra P: R$ 10,00 - Jarra G: R$ 20,00",
+      image: "img-marlonista/img/suco-uva.jpg",
     },
   ],
 };
@@ -494,7 +552,6 @@ function loadCategory(category) {
     productsTable.appendChild(productRow);
   });
 
-  // Adicionar event listeners para as imagens dos produtos
   setTimeout(() => {
     const productImages = document.querySelectorAll(".product-thumbnail");
     productImages.forEach((img, index) => {
@@ -503,10 +560,7 @@ function loadCategory(category) {
         openModal(product.image, product.name);
       });
 
-      // Adicionar cursor pointer para indicar que é clicável
       img.style.cursor = "pointer";
-
-      // Efeito de hover na imagem
       img.addEventListener("mouseenter", function () {
         this.style.transform = "scale(1.05)";
         this.style.transition = "transform 0.3s ease";
