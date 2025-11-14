@@ -188,6 +188,13 @@ const menuData = {
       price: "1 Pessoa: R$ 30,00",
       image: "img-marlonista/img/parmegiana-camarao.jpg",
     },
+    {
+      id: 22,
+      name: "Camarão Internacional",
+      description: "",
+      price: "1 Pessoa: R$ 50,00",
+      image: "img-marlonista/img/camarao-internacional.jpg",
+    },
   ],
   peixes: [
     {
