@@ -350,6 +350,13 @@ const menuData = {
       price: "R$ 70,00",
       image: "img-marlonista/porcao-camarao.jpg",
     },
+    {
+      id: 52,
+      name: "Feijoada de Frutos do Mar",
+      description: "",
+      price: "R$ 30,00",
+      image: "img-marlonista/img/feijoada-frutos-mar.jpg",
+    },
   ],
   sucos: [
     {
