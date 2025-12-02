@@ -92,10 +92,17 @@ const menuData = {
   camaroes: [
     {
       id: 13,
-      name: "Crocretes de camarões",
+      name: "Crocretes de Camarões",
       description: "",
       price: "R$ 3,50 UND",
       image: "img-marlonista/img/risoto-camarao.jpg",
+    },
+    {
+      id: 63,
+      name: "Risoto de Camarões",
+      description: "",
+      price: "R$ 80,00",
+      image: "img-marlonista/img/risoto-camarao1.jpg",
     },
     {
       id: 14,
