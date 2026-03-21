@@ -192,7 +192,7 @@ const menuData = {
       id: 22,
       name: "Parmegiana de Camarões",
       description: "",
-      price: "1 Pessoa: R$ 30,00",
+      price: "1 Pessoa: R$ 35,00",
       image: "img-marlonista/img/parmegiana-camarao.jpg",
     },
     {
