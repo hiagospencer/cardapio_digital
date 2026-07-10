@@ -12,7 +12,7 @@ const menuData = {
       id: 2,
       name: "Polvo",
       description: "",
-      price: `P - R$ 60,00 | G - R$ 90,00
+      price: `P - R$ 60,00 | G - R$ 100,00
       `,
       image: "img-marlonista/img/polvo.jpg",
     },
@@ -178,7 +178,7 @@ const menuData = {
       id: 20,
       name: "Camarões Empanado",
       description: "",
-      price: "R$ 60,00",
+      price: "R$ 70,00",
       image: "img-marlonista/img/camarao-empanado.jpg",
     },
     {
